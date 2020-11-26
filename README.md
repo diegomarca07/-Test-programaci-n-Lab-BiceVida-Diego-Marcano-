@@ -8,13 +8,13 @@ Crear mediante Terraform un aplicativo Docker en AWS Elastic Beanstalk.
 | Name | Version |
 |------|---------|
 | terraform | = 0.13.5 |
-| aws | ~> 2.0.62 |
+| aws | = 2.0.62 |
 
 ### Provedor 📋
 
 | Name | Version |
 |------|---------|
-| aws | ~> 2.0.62 |
+| aws | = 2.0.62 |
 
 ### ¿Cómo ejecutar? 🔧
 
