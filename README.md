@@ -37,11 +37,11 @@ terraform apply ---- para desplegar la aplicación en aws
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| description | Elastic Beanstalk Application description | `string` | `""` | no |
-| environment | Environment, e.g. 'BiceEnvironment', 'UAT' | `string` | `""` | no |
+| description | Elastic Beanstalk Application description | `string` | `""` | yes |
+| environment | Environment, e.g. 'BiceEnvironment', 'UAT' | `string` | `""` | yes |
 | name | Solution name, e.g. 'bice_name_application' | `string` | n/a | yes |
-| namespace | Namespace, which could be your organization name, e.g. 'eg' or 'cp' | `string` | `""` | no |
-| tags | Additional tags (e.g. `map('bice_vpc_id`,`XYZ`) | `map(string)` | `{}` | no |
+| namespace | Namespace, which could be your organization name, e.g. 'eg' or 'cp' | `string` | `""` | yes |
+| tags | Additional tags (e.g. `map('bice_vpc_id`,`XYZ`) | `map(string)` | `{}` | yes |
 
 ## Outputs
 
